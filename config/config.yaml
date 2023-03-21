@@ -1,0 +1,68 @@
+%YAML:1.0
+base_folder: /home/maxst/MAXST/dataParser/data/office2f
+result_save_path: /home/maxst/MAXST/Data/Texturing/Basement2/mesh_refined
+id: 0
+
+last: 1000
+
+img_height: 960
+img_width: 960
+stride: 10
+
+# office
+max_distance: 5
+
+voxel_size: 0.05
+distance_threshold: 0.3     # (threshold) length of side of triangle 
+distance_ratio_threshold: 0.3 # min_side_length / max_side_length
+
+# plane detection & refinement
+cluster_size_threshold_plane: 100
+cluster_size_threshold: 50
+
+# Occlusion check
+occlusion_2d_distance_thresh: 100.0
+occlusion_depth_thresh: 0.1
+
+# Merge
+merge_threshold_global_visible: 50
+overlap_ratio_thresh: 0.2
+
+
+# #### room
+# max_distance: 5
+
+# voxel_size: 0.1
+# distance_threshold: 1.0     # (threshold) length of side of triangle 
+# distance_ratio_threshold: 0.1 # min_side_length / max_side_length
+
+# # plane detection & refinement
+# cluster_size_threshold_plane: 200
+# cluster_size_threshold: 100
+
+# # Occlusion check
+# occlusion_2d_distance_thresh: 100.0
+# occlusion_depth_thresh: 0.1
+
+# # Merge
+# merge_threshold_global_visible: 50
+# overlap_ratio_thresh: 0.1
+
+#### staris
+# max_distance: 2
+
+# voxel_size: 0.05
+# distance_threshold: 0.3     # (threshold) length of side of triangle 
+# distance_ratio_threshold: 0.5 # min_side_length / max_side_length
+
+# # plane detection & refinement
+# cluster_size_threshold_plane: 100
+# cluster_size_threshold: 50
+
+# # Occlusion check
+# occlusion_2d_distance_thresh: 100.0
+# occlusion_depth_thresh: 0.2
+
+# # Merge
+# merge_threshold_global_visible: 30
+# overlap_ratio_thresh: 0.1
